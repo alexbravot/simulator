@@ -1,8 +1,3 @@
-# Instalar Streamlit y LocalTunnel
-!pip install -q streamlit pyngrok pandas numpy matplotlib
-
-# Crear un archivo temporal de Streamlit alineado con los criterios del reto NTT DATA IBM Quantum
-app_code = """import streamlit as st
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
