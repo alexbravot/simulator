@@ -76,7 +76,3 @@ st.markdown(
     "- **Brecha Porcentual (gap):** Calculada mediante la fórmula 100 * (C - 340) / 340 exclusivamente sobre soluciones válidas.\\n"
     "- **Límite de Escalabilidad:** Demuestra por qué la simulación statevector de 100 variables binarias (N=10) choca contra barreras de memoria y cómo los métodos híbridos o clásicos mitigan el problema."
 )
-"""
-
-with open("app.py", "w") as f:
-    f.write(app_code)
